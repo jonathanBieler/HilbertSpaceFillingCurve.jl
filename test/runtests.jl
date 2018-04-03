@@ -1,5 +1,10 @@
 using HilbertSpaceFillingCurve
 using Base.Test
 
-# write your own tests here
-@test 1 == 2
+d = 10
+for ndims in 2:3, nbits in [8,16]
+    p = hilbert(d, ndims, nbits)
+    @assert d == hilbert(p, ndims, nbits)
+end
+
+@test_throws AssertionError hilbert(d, 2, 64)
