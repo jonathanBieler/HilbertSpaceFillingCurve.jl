@@ -14,7 +14,7 @@ provides(SimpleBuild,
             `make`
         end
     end), 
-libhilbert)
+libhilbert, installed_libpath=builddir)
 
 @BinDeps.install Dict(
     "libhilbert" => "libhilbert",
