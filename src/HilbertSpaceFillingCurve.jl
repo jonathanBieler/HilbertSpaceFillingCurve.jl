@@ -14,8 +14,8 @@ module HilbertSpaceFillingCurve
     global const bits_per_byte = 8
 
     function hilbert(d::T, ndims, nbits = 32) where T <: Integer
-
         @assert ndims*nbits <= sizeof(bitmask_t) * bits_per_byte
+
         p = bitmask_t.(zeros(ndims))
         ccall((:hilbert_i2c, libhilbert), Void, (Int,Int,bitmask_t,Ptr{bitmask_t}),ndims,nbits,d,p) 
         Int.(p)
@@ -23,6 +23,8 @@ module HilbertSpaceFillingCurve
 
     function hilbert(p::Vector{T}, ndims, nbits = 32) where T <: Integer
         @assert ndims*nbits <= sizeof(bitmask_t) * bits_per_byte
+        @assert length(p) == ndims
+
         Int(ccall((:hilbert_c2i, libhilbert), bitmask_t, (Int,Int,Ptr{bitmask_t}),ndims,nbits, bitmask_t.(p)))
     end
 

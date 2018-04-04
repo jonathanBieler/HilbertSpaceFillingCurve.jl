@@ -20,8 +20,7 @@ Convert the ndims-dimensional coordinates `p` into the linear index `d` :
 
 `d = hilbert(p::Vector{T}, ndims, nbits = 32) where T <: Integer`
 
-The number of bits `nbits` determines the precision of the curve, and the algorithm work
-under the constrain:
+All coordinates are positive integers (zero included). The number of bits `nbits` determines the precision of the curve, and the algorithm work under the constrain:
 
 - `ndims * nbits <= 64`
 
