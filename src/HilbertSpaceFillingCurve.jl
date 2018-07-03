@@ -1,6 +1,7 @@
 __precompile__()
 module HilbertSpaceFillingCurve
 
+    using Compat
     export hilbert
 
     const depsfile = joinpath(dirname(@__FILE__), "..", "deps", "deps.jl")
@@ -17,7 +18,7 @@ module HilbertSpaceFillingCurve
         @assert ndims*nbits <= sizeof(bitmask_t) * bits_per_byte
 
         p = bitmask_t.(zeros(ndims))
-        ccall((:hilbert_i2c, libhilbert), Void, (Int,Int,bitmask_t,Ptr{bitmask_t}),ndims,nbits,d,p) 
+        ccall((:hilbert_i2c, libhilbert), Nothing, (Int,Int,bitmask_t,Ptr{bitmask_t}),ndims,nbits,d,p) 
         Int.(p)
     end
 

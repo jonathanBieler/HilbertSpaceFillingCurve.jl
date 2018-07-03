@@ -5,7 +5,7 @@ using Compat
 
 libhilbert = library_dependency("libhilbert")
 
-builddir = joinpath(Pkg.dir(),"HilbertSpaceFillingCurve","src","lib")
+builddir = joinpath(@__DIR__,"..","src","lib")
 
 provides(SimpleBuild,
     (@build_steps begin
