@@ -4,7 +4,6 @@
 [![Build Status](https://ci.appveyor.com/api/projects/status/kg3gx5ngbbewjstr?svg=true)](https://ci.appveyor.com/project/jonathanBieler/HilbertSpaceFillingCurve-jl)
 
 [![Coverage Status](https://coveralls.io/repos/jonathanBieler/HilbertSpaceFillingCurve.jl/badge.svg?branch=master&service=github)](https://coveralls.io/github/jonathanBieler/HilbertSpaceFillingCurve.jl?branch=master)
-[![codecov.io](http://codecov.io/github/jonathanBieler/HilbertSpaceFillingCurve.jl/coverage.svg?branch=master)](http://codecov.io/github/jonathanBieler/HilbertSpaceFillingCurve.jl?branch=master)
 
 Bindings for Doug Moore's [Fast Hilbert Curve Generation](http://www.tiac.net/~sw/2008/10/Hilbert/moore/).
 
