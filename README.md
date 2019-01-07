@@ -1,11 +1,10 @@
 # HilbertSpaceFillingCurve
 
 [![Build Status](https://travis-ci.org/jonathanBieler/HilbertSpaceFillingCurve.jl.svg?branch=master)](https://travis-ci.org/jonathanBieler/HilbertSpaceFillingCurve.jl)
-[![Build Status](https://ci.appveyor.com/api/projects/status/kg3gx5ngbbewjstr?svg=true)](https://ci.appveyor.com/project/jonathanBieler/HilbertSpaceFillingCurve-jl)
 
 [![Coverage Status](https://coveralls.io/repos/jonathanBieler/HilbertSpaceFillingCurve.jl/badge.svg?branch=master&service=github)](https://coveralls.io/github/jonathanBieler/HilbertSpaceFillingCurve.jl?branch=master)
 
-Bindings for Doug Moore's [Fast Hilbert Curve Generation](http://www.tiac.net/~sw/2008/10/Hilbert/moore/).
+Bindings for Doug Moore's [Fast Hilbert Curve Generation](http://www.tiac.net/~sw/2008/10/Hilbert/moore/). Windows is not supported.
 
 ![screenshot](data/figure.png)
 
