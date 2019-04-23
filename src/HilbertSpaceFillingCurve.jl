@@ -1,7 +1,6 @@
 __precompile__()
 module HilbertSpaceFillingCurve
 
-    using Compat
     export hilbert
 
     const depsfile = joinpath(dirname(@__FILE__), "..", "deps", "deps.jl")

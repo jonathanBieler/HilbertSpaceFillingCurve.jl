@@ -1,10 +1,8 @@
 name = "HilbertSpaceFillingCurve"
-uuid = "f0f0c99e-ad1e-11e8-1528-7d9d6ede637e"
-authors = ["Jonathan Bieler <jonathan.bieler@alumni.epfl.ch>"]
-version = "0.1.0"
+uuid = "515b7ef8-bac0-55e1-a220-237e90591ccc"
 
 [deps]
 BinDeps = "9e28174c-4ba2-5203-b857-d8d62c4213ee"
-Compat = "34da2185-b29b-5c13-b0c7-acf172513d20"
-Libdl = "8f399da3-3557-5675-b5ff-fb832c97cbdb"
-Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+[compat]
+julia = "≥ 0.7.0"
