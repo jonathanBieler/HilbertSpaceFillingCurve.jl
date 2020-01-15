@@ -3,9 +3,7 @@
 [pkgeval-img]: https://juliaci.github.io/NanosoldierReports/pkgeval_badges/H/HilbertSpaceFillingCurve.svg
 [pkgeval-url]: https://juliaci.github.io/NanosoldierReports/pkgeval_badges/report.html
 
-[![Build Status](https://travis-ci.org/jonathanBieler/HilbertSpaceFillingCurve.jl.svg?branch=master)](https://travis-ci.org/jonathanBieler/HilbertSpaceFillingCurve.jl) [![PkgEval][pkgeval-img]][pkgeval-url]
-
-[![Coverage Status](https://coveralls.io/repos/jonathanBieler/HilbertSpaceFillingCurve.jl/badge.svg?branch=master&service=github)](https://coveralls.io/github/jonathanBieler/HilbertSpaceFillingCurve.jl?branch=master)
+[![Build Status](https://travis-ci.org/jonathanBieler/HilbertSpaceFillingCurve.jl.svg?branch=master)](https://travis-ci.org/jonathanBieler/HilbertSpaceFillingCurve.jl) [![PkgEval][pkgeval-img]][pkgeval-url] [![Coverage Status](https://coveralls.io/repos/jonathanBieler/HilbertSpaceFillingCurve.jl/badge.svg?branch=master&service=github)](https://coveralls.io/github/jonathanBieler/HilbertSpaceFillingCurve.jl?branch=master)
 
 Bindings for Doug Moore's [Fast Hilbert Curve Generation](http://www.tiac.net/~sw/2008/10/Hilbert/moore/). Windows is not supported.
 
